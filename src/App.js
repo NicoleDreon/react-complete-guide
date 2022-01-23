@@ -29,6 +29,12 @@ function App() {
       <Expenses expenses={expenses} />
     </div>
   );
+  // the return above is the same as importing React from 'react'
+  // and returning
+  // return React.createElement('div', {},
+  // React.createElement('h2', {}, "Let's get started!"),
+  // React.createElement(Expenses, { items: expenses })
+  // );
 }
 
 export default App;
